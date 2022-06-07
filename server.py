@@ -21,7 +21,7 @@ print('---- Message received ----')
 print(msg)
 
 #메시지 송신
-client.sendall(b'Hi Hi i\'m server.You\'re name is : ' + msg)
+client.send(b'Hi Hi i\'m server.You\'re name is : ' + msg)
 print('---- Message send ----')
 
 #해제
